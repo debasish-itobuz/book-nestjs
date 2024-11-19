@@ -1,10 +1,10 @@
-import { Prop, Schema, SchemaFactory } from "@nestjs/mongoose";
+import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 
 export enum Category {
-  ADVENTURE = "Adventure",
-  CLASSICS = "Classics",
-  HORROR = "Horror",
-  FANTASY = "Fantasy",
+  ADVENTURE = 'Adventure',
+  HORRER = 'Horrer',
+  FANTASY = 'Fantasy',
+  STORY = 'Story',
 }
 
 @Schema({
